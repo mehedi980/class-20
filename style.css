@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.full_website{
+    width: 1024px;
+    margin: 25px auto;
+}
+
+.main_menu ul{
+    text-align: center;
+}
+.main_menu ul li{
+    list-style-type: none;
+    display: inline-block;
+}
+.main_menu ul li a {
+	text-decoration: none;
+	margin: 5px 24px;
+	font-size: x-large;
+	background: #dddddd;
+	padding: 9px 11px;
+	display: inline-block;
+}
+.main_menu ul li a:hover {
+	background: #000;
+	color: #fff;
+	transition: .4s;
+}
+
+.first_Website {
+	text-align: center;
+	margin: 46px 25px;
+	background: #f6f6f6;
+	padding: 47px 1px;
+}
+/* h1{
+	color: #a52a2a;
+	margin-bottom: 32px; */
+
+.banner {
+	height: 202px;
+}
+.banner1 {
+	height: 361px;
+	width: 47%;
+	float: left;
+}
+.my_name {
+	background: #dddddd;
+	width: 42%;
+	margin-left: 44%;
+	padding-left: 143px;
+}
+h3{
+	margin: 6px 0px 9px 594px;
+	font-size: 26px;
+	color: #a52a2a;
+}
+.about_me {
+	margin: 6px 0px 9px 594px;
+	font-size: 14px;
+}
+.about_me1{
+	margin: 6px 0px 9px 594px;
+	font-size: 20px;
+}
+.skill{
+	margin: 6px 0px 9px 594px;
+	font-size: 18px;
+}
+.experience1{	margin: 6px 0px 9px 594px;
+	font-size: 20px;
+}
+.experience{
+	margin: 6px 0px 9px 594px;
+	font-size: 17px;
+}
+.service {
+	clear: both;
+	text-align: center;
+}
+.service a {
+	text-decoration: none;
+	color: rgb(255, 115, 0);
+	background: #dddddd;
+	padding: 9px 10px;
+	font-size: 30px;
+	display: inline-block;
+	margin-top: 15px;
+	border: 1px solid #000;
+	position: relative;
+	z-index: 1;
+}
+.service a::after{
+	content: "";
+	width: 0%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background: rgb(15, 15, 15);
+	position: absolute;
+	z-index: -1;
+
+	transition: .4s;
+}
+.service a:hover::after{
+	width: 100%;
+}
+.sercices1 {
+	width: 29%;
+	height: 97px;
+	background: #dddd;
+	text-align: center;
+	padding: 35px 10px;
+	margin-top: 37px;
+	float: left;
+	margin-left: 22px;
+	font-size: 15px;
+}
+.fooder {
+	font-size: 11px;
+	text-align: center;
+	margin: 17px 0px;
+	display: inline-block;
+	border-top: 3px solid #000;
+	background: #dddddd;
+}
